@@ -27,6 +27,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// Provide a 200 OK root endpoint for Happeo's mandatory oAuth/Healthcheck pings
+app.get("/", (req, res) => {
+  res.status(200).send("Happeo Search Connector is Live and Healthy!");
+});
+
 app.use(
   cors({
     origin: process.env.CORS_ORIGIN
