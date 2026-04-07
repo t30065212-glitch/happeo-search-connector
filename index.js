@@ -20,6 +20,13 @@ if (!DEV_MODE && !process.env.SHARED_SECRET) {
 
 app.use(express.json());
 
+// Log every single incoming request for debugging
+app.use((req, res, next) => {
+  console.log(`\n[NETWORK LOG] Incoming ${req.method} request to: ${req.url}`);
+  console.log(`[NETWORK LOG] Headers:`, JSON.stringify(req.headers, null, 2));
+  next();
+});
+
 app.use(
   cors({
     origin: process.env.CORS_ORIGIN
