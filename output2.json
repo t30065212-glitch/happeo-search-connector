@@ -1,0 +1,32 @@
+Column Mapping:
+A (Index 0): Header="" | RowData=""
+B (Index 1): Header="" | RowData="Collaboration"
+C (Index 2): Header="Service Name" | RowData="1"
+D (Index 3): Header="" | RowData="Email"
+E (Index 4): Header="Description" | RowData="Email communication to connect"
+F (Index 5): Header="Features" | RowData="Inbox
+Calendar
+Resource Schedu"
+G (Index 6): Header="Category" | RowData="Communications"
+H (Index 7): Header="Supporting Services
+(Systems, Applications)" | RowData=""
+I (Index 8): Header="Service Owner" | RowData=""
+J (Index 9): Header="Business Owner" | RowData=""
+K (Index 10): Header="Authorized Users" | RowData="All Employees"
+L (Index 11): Header="Request Process" | RowData="Submit an IT ticket
+Contact he"
+M (Index 12): Header="Approval Requirement / Process" | RowData="N/A"
+N (Index 13): Header="Requirements & 
+Pre-requisites" | RowData="N/A"
+O (Index 14): Header="Turnaround Time for New Requests" | RowData="3 business days for non-critic"
+P (Index 15): Header="User Responsibility" | RowData="N/A"
+Q (Index 16): Header="Support Hours" | RowData="Business hours: 8AM to 6PM"
+R (Index 17): Header="Hours of Availability / Planned Downtime" | RowData="Available 24/7
+Planned downtim"
+S (Index 18): Header="Performance
+ Metrics" | RowData=""
+T (Index 19): Header="Support Process" | RowData="On-site support or remote desk"
+U (Index 20): Header="Support Owner" | RowData=""
+V (Index 21): Header="Support Documentation" | RowData="Link to support documentation"
+W (Index 22): Header="Internal Costs" | RowData=""
+X (Index 23): Header="Customer Costs" | RowData="None"
